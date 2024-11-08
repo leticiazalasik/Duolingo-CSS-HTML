@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 23px;
+}
+
+header {
+    height: 100vh;
+
+}
+
+.header {
+    background-color: #235390;
+    color: #FFFF;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.paginaInicial {
+    justify-content: space-evenly;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    background-image: url('imagemFundo.svg');
+}
+
+.img-Planeta-Terra {
+    width: 65%;
+    flex-direction: column;
+
+}
+
+.botao-start {
+    background-color: #58CC02;
+    border-radius: 16px;
+    border: none;
+    color: aliceblue;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.botao-start:hover {
+    background-color: #406dc1;
+}
+
+.botao-have-account {
+    margin-top: 10px;
+    border-radius: 16px;
+    border-bottom: solid #042C60 3px;
+    border-top: solid #042C60 1px;
+
+    color: aliceblue;
+    background-color: #235390;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.botao-have-account:hover {
+    background-color: #042C60;
+}
+
+.botoes-inicias {
+    flex-direction: column;
+    display: flex;
+
+}
+
+
+
+.componentes-pagina-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titulo-principal {
+    color: #FFFF;
+    text-align: center;
+    size: 32px;
+    width: 70%;
+    margin-bottom: 40px;
+    line-height: 1.0; 
+}
+
+.paginaInicial {
+    background-color: #235390;
+    background-image: url('imagemFundo.svg');
+
+}
+
+.nav-menu-header {
+    background-color: #0A4A82;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-menu-header a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+.nav-menu-header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-menu-header li {
+    padding: 5%;
+}
+
+.div-main-1{
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+    height: 180px;
+
+}
+
+.div-main-1 p{
+    color: #777;
+}
+
+.div-main-1 h3{
+color: #3C3C3C;
+margin-bottom: 1%;
+}
+
+.texto-main-1{
+width: 40%;
+margin-left: 3%;
+}
+
+main hr{
+    border-bottom: 2px solid #cbcbcb;
+    width: 70%;
+    margin: auto;
+
+}
+
+.main-1-destaque{
+    text-decoration: underline;
+    /* font-weight: bold; */
+    
+}
+
+.div-main-2{
+    margin-top: 2%;
+}
+
+.div-main-2 h3{
+    color: #3C3C3C;
+}
+
+.main-2-section{
+display: flex;
+flex-direction: column;
+width: 25%;
+}
+
+.div-icones{
+    display: flex;
+    width: 100%;
+}
+
+.section{
+    width: 90%;
+    margin-bottom: 8%;
+    padding: 10px;
+}
+
+.img-computador{
+    width: 20%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.main-2-container{
+flex-direction: row;
+margin-top: 2%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.icones{
+    width: 10%;
+    display: inline;
+}
+
+.h4-icones{
+    margin-bottom: 5%;
+    width: 50%;
+    padding-top: 6%;
+    margin-left: 2%;
+}
+
+.div-main-3{
+    margin-top: 40%;
+    height: 400px;
+}
+
+.main-3-container img {
+    width: 14%;
+}
+
+.blue-p {
+    color: #1CB0F6 !important;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.div-main-3{
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+    height: 180px;
+
+}
+
+.div-main-3 p{
+    color: #777;
+}
+
+.div-main-3 h3{
+color: #3C3C3C;
+margin-bottom: 1%;
+}
+
+.texto-main-3{
+width: 40%;
+margin-left: 3%;
+}
+
+.texto-main-3 img {
+    margin-top: 5%;
+}
+
+
+.div-main-4{
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+    height: 180px;
+
+}
+
+.div-main-4 p{
+    color: #777;
+}
+
+.div-main-4 h3{
+color: #3C3C3C;
+margin-bottom: 1%;
+}
+
+.texto-main-4{
+width: 40%;
+margin-left: 3%;
+}
+
+.texto-main-4 img {
+    margin-top: 5%;
+}
+
+.div-main-5{
+    margin-top: 8%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 4%;
+    height: 180px;
+
+}
+
+.div-main-5 p{
+    color: #777;
+}
+
+.div-main-5 h3{
+color: #3C3C3C;
+margin-bottom: 1%;
+}
+
+.texto-main-5{
+width: 40%;
+margin-left: 3%;
+}
+
+.texto-main-5 img {
+    margin-top: 5%;
+}
+
+footer{
+    background-image: url('imagemFundo.svg');
+    background-color: #235390;
+    color: #FFFF;
+}
+
+.botao-start-footer {
+    background-color: #58CC02;
+    border-radius: 12px;
+    border: none;
+    color: aliceblue;
+    width: 12%;
+    height: 40px;
+    margin-left: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.botao-start-footer:hover {
+    background-color: #406dc1;
+}
+
+.footer-start{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5%;
+    padding-top: 5%;
+    
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+
+}
+
+.division-footer-column{
+margin-top: 15%;
+}
+
+.footer-column{
+margin-left: 3%;
+    margin-right: 3%;
+}
+
+.footer-container li, ul, a {
+    list-style-type: none;
+    text-decoration: none;
+    font: Inter;
+    color: #FFFF;
+
+}
+
+.footer-container a{
+    color: #ffffffb7;
+}
+
+.nav-menu-footer a {
+    text-decoration: none;
+    color: #ffffffb7;
+    padding: 20px;
+
+}
+
+.nav-menu-footer ul {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.titulo-column {
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.nav-menu-footer{
+    font-size: 12px;
+}
+
+.text_left {
+    width: 170px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+    z-index: 1;
+    margin-left: 20px;
+}
+
+.menu-footer-centralizar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-bottom: 3%;
+}
