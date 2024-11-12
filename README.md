@@ -9,4 +9,5 @@ Foi utilizado um  projeto de site do figma e reproduzido no  CSS e HTML. Alguns 
 ## 👨‍💻️ Tecnologias Utilizadas:
 
 Vscode - HTML e CSS.
+
 Figma - projeto que foi reproduzido. 
